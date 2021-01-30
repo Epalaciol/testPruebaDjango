@@ -11,7 +11,10 @@ git clone https://github.com/Epalaciol/testPruebaDjango.git
 ## 2 Configurar entorno virtual
 
 [Instalar pyenv](https://github.com/pyenv/pyenv-installer)
-Ejecutar: 
+
+
+&nbsp;
+Despuesde haberlo instalado Ejecutar: 
 ```sh
 pyenv install 3.8.4 
 pyenv virtualenv 3.8.4 test
@@ -24,17 +27,21 @@ python -m pip install Django==3.1.5
 ```
 ## 4 Ejecutar pruebas 
 
-vamos a la carpeta  mysite dentro de ella debe de aparecer lo siguiente:
+Vamos a la carpeta  mysite dentro de ella debe de aparecer lo siguiente:
 mysite:
 -- mysite
 -- polls
 -- manage.py 
+
+&nbsp;
 Estando parados aqui podemos ejecutar:
 ```python
 python manage.py runserver
 ```
 Si no hay problemas debe de desplegar la aplicacion de forma local 
 
+
+&nbsp;
 *Para correr pruebas*
 Ejecutamos: 
 ```py
